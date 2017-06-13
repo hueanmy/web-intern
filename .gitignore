@@ -14,3 +14,5 @@
 /config/secrets.yml
 /test/
 /vendor/
+.framgia-ci-reports/
+/public/system/**
