@@ -1,0 +1,70 @@
+$title-color: #555;
+$background-color-wall: #f7f7f7;
+$btn-lg-background: #3276b1;
+$btn-lg-color: #ecf0f1;
+
+.form-login {
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+ }
+
+.login-title {
+  color: $title-color;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 45px;
+}
+
+.account-wall {
+  background-color: $background-color-wall;
+  margin-top: 20px;
+  padding: 40px 0 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  display: block;
+  height: 96px;
+  margin: 0 auto 10px;
+  width: 96px;
+}
+
+.form-signin {
+  margin: 0 auto;
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-control {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.btn-lg {
+  background-color: $btn-lg-background;
+  border-radius: 4px;
+  color: $btn-lg-color;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.create-acount {
+  margin-left: 140px;
+}
+
+.forgot-password {
+  margin-left: 200px;
+}
+
+.remember-me {
+  margin-top: 10px;
+}
+
