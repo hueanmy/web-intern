@@ -3,13 +3,15 @@ $background-color-wall: #f7f7f7;
 $btn-lg-background: #3276b1;
 $btn-lg-color: #ecf0f1;
 
-.form-login {
+.form-login
+ {
   margin-left: 500px;
   margin-right: 500px;
   margin-top: 100px;
  }
 
-.login-title {
+.login-title
+ {
   color: $title-color;
   display: block;
   font-size: 18px;
@@ -23,7 +25,15 @@ $btn-lg-color: #ecf0f1;
   padding: 40px 0 20px;
 }
 
-.profile-img {
+.account-wall
+ {
+  background-color: $background-color-wall;
+  margin-top: 20px;
+  padding: 40px 0 20px;
+ }
+
+.profile-img
+ {
   border-radius: 50%;
   display: block;
   height: 96px;
@@ -37,7 +47,15 @@ $btn-lg-color: #ecf0f1;
   padding: 15px;
 }
 
-.form-signin .form-control {
+.form-signin
+ {
+  margin: 0 auto;
+  max-width: 330px;
+  padding: 15px;
+ }
+
+.form-signin .form-control
+ {
   box-sizing: border-box;
   font-size: 16px;
   height: auto;
@@ -67,4 +85,3 @@ $btn-lg-color: #ecf0f1;
 .remember-me {
   margin-top: 10px;
 }
-
