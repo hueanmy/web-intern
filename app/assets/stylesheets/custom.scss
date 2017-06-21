@@ -1,14 +1,48 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
 $title-color: #555;
 $background-color-wall: #f7f7f7;
 $btn-lg-background: #3276b1;
 $btn-lg-color: #ecf0f1;
+$color-hover: #5ba56d;
+$background-image: #b7e5c2;
+$color-brand: #424242;
+$lightblue: #add8e6;
 
-.form-login
- {
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 100px;
- }
+body {
+  background-color: $lightblue;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.banner {
+  height: 140px;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.navbar-primary {
+  margin-bottom: 0;
+}
+
+.input-group {
+  padding-right: 200px;
+}
+
+.search {
+  background-color: $lightblue;
+  border-color: transparent;
+}
+
+.page-scroll {
+  color: $color-brand;
+  font-family: museo-w01-700, serif;
+  font-size: 18px;
+}
 
 .login-title
  {
@@ -16,13 +50,20 @@ $btn-lg-color: #ecf0f1;
   display: block;
   font-size: 18px;
   font-weight: 400;
-  margin-left: 45px;
 }
 
 .account-wall {
   background-color: $background-color-wall;
   margin-top: 20px;
   padding: 40px 0 20px;
+}
+
+.form-login {
+  margin: 0;
+}
+
+.edit-field{
+  margin: 0;
 }
 
 .account-wall
@@ -39,12 +80,6 @@ $btn-lg-color: #ecf0f1;
   height: 96px;
   margin: 0 auto 10px;
   width: 96px;
-}
-
-.form-signin {
-  margin: 0 auto;
-  max-width: 330px;
-  padding: 15px;
 }
 
 .form-signin
@@ -65,13 +100,17 @@ $btn-lg-color: #ecf0f1;
 }
 
 .btn-lg {
-  background-color: $btn-lg-background;
+  background-color: $color-hover;
   border-radius: 4px;
   color: $btn-lg-color;
   font-size: 18px;
   height: 40px;
   margin-top: 10px;
   width: 100%;
+}
+
+.btn-lg:hover {
+  background-color: $btn-lg-background;
 }
 
 .create-acount {
